@@ -1,7 +1,8 @@
 <html>
 <head><title>testing page</title></head>
 <body>
-<a href="javascript:alert('aaa')">testing page</a>
+
+
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -10,6 +11,10 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+
+
+<a href="#" onclick="_hmt.push('[_trackEvent]', 'clickevent')">testing page</a>
+
 </script>
 </body>
 </html>
